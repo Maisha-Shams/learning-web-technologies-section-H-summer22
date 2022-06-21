@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+		<form action="registraioncheck.php" method="post" enctype="">
+			<fieldset>
+				<legend><b>REGISTRATION</b></legend>
+
+				<table>
+					<tr>
+						<td>Id:</td>
+						<td><input type="text" name="id" value="" > </td>
+					</tr>
+					<tr>
+						<td>password:</td>
+						<td><input type="password" name="password value="" > </td>
+					</tr>
+					<tr>
+						<td>confirm password:</td>
+						<td><input type="password" name="confirmpassword" value="" > </td>
+					</tr>
+					<tr>
+						<td>Name:</td>
+						<td><input type="text" name="name" value="" > </td>
+					</tr>
+					<tr>
+						<td>User Type:</td>
+						<td>
+							<input type="radio" name="usertype" value=""> User
+							<input type="radio" name="usertype" value=""> Admin
+						
+						</td>
+					</tr>
+
+					<tr>	
+						<td>
+							<input type="submit" name="submit" value="Sign Up"/>
+                            <input type="hidden" name="fname" value="Sign Up"/> <br>
+                            <a href="login.html">Sign In</a>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+ 		</form>
+</body>
+</html>
